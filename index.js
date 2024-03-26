@@ -5,7 +5,7 @@ let a0,a1,a2,a3,a4,a5,a6,a7;
 
 
 var five = require("johnny-five");
-var board = new five.Board();
+var board = new five.Board({ repl: false });
 
 board.on("ready", function() {
 iniciado=true;
